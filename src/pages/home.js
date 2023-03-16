@@ -1,4 +1,6 @@
-function App() {
+import React from "react";
+
+const Home = () => {
   return (
     <>
       <header className="hide-when-mobile">
@@ -127,15 +129,13 @@ function App() {
           </div>
         </div>
       </header>
-      <main>
-      HOME PAGE
-      </main>
+      <main>HOME PAGE</main>
       <footer>
         DDDDesigned and developed by Courses4Arab.com
         <span>🧡</span>
       </footer>
-    </>
+    </>   
   );
-}
+};
 
-export default App;
+export default Home;
