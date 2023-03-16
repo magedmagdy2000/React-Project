@@ -1,5 +1,5 @@
 import React from 'react';
-
+import "./MainContent.css";
 const MainContent = ({pageName, designer}) => {
   return (
     <div>
@@ -13,3 +13,4 @@ const MainContent = ({pageName, designer}) => {
 }
 
 export default MainContent;
+ 
