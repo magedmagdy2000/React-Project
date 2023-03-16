@@ -1,9 +1,13 @@
 import React from 'react';
 
-const MainContent = ({pageName}) => {
+const MainContent = ({pageName, designer}) => {
   return (
     <div>
-            <main>{pageName}</main>
+            <main> 
+              {pageName}
+              <br />
+              {designer}
+            </main>
     </div>
   );
 }

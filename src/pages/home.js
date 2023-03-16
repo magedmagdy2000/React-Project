@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <>
       <Header/>
-      <MainContent  pageName="Home Page" />
+      <MainContent  pageName="Home Page"  designer="Designed By Maged Magdy"/>
       <Footer/>
     </>   
   );
