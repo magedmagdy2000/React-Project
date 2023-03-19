@@ -3,8 +3,8 @@ import { Link,NavLink } from 'react-router-dom';
 import './Header.css';
 const Header = () => {
   return (
-    <div>
-      <header className="hide-when-mobile">
+    <div className='myHeader'>
+      <header className="hide-when-mobile ali">
         <Link to="/"><h1>c4a.dev</h1></Link>
         
         <ul className="flex">
