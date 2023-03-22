@@ -65,7 +65,8 @@ const Header = () => {
       </header>
 
       <header className="show-when-mobile">
-        <h1>Maged Magdy</h1>
+      <Link to="/"><h1>Maged Magdy</h1></Link>
+      
         <label className="absolute" htmlFor="burger">
           <i className="fas fa-bars" />
         </label>
@@ -73,12 +74,12 @@ const Header = () => {
         <div className="show-on-click">
           <div className="main-div">
             <label htmlFor="html">
-              HTML <i className="fas fa-plus" />
+              HTML  <i  className="fas fa-plus" />
             </label>
             <input id="html" type="checkbox" />
             <ul className="sub-div">
               <li>
-                <a href="">Full Course</a>
+                <NavLink to="/html">Full Course</NavLink>
               </li>
               <li>
                 <a href="">Crash Course</a>
@@ -95,7 +96,7 @@ const Header = () => {
             <input id="css" type="checkbox" />
             <ul className="sub-div">
               <li>
-                <a href="">Full Course</a>
+                <NavLink to="/css">Full Course</NavLink>
               </li>
               <li>
                 <a href="">CSS Examples</a>
@@ -126,7 +127,7 @@ const Header = () => {
             <input id="js" type="checkbox" />
             <ul className="sub-div">
               <li>
-                <a href="">coming soon🔥</a>
+                <NavLink to="/javascript">coming soon🔥</NavLink>
               </li>
             </ul>
           </div>
