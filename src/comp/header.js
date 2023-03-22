@@ -5,14 +5,14 @@ const Header = () => {
   return (
     <div className='myHeader'>
       <header className="hide-when-mobile ali">
-        <Link to="/"><h1>c4a.dev</h1></Link>
+        <Link to="/"><h1>Maged Magdy</h1></Link>
         
         <ul className="flex">
           <li className="main-list">
             <NavLink className="main-link" to="/html">
               HTML
             </NavLink>
-            {/* <ul className="sub-ul">
+            <ul className="sub-ul">
               <li>
                 <a href="">Full Course</a>
               </li>
@@ -22,13 +22,13 @@ const Header = () => {
               <li>
                 <a href="">learn in 1h</a>
               </li>
-            </ul> */}
+            </ul>
           </li> 
           <li className="main-list">
             <NavLink className="main-link" to="/css">
               CSS
             </NavLink>
-            {/* <ul className="sub-ul">
+            <ul className="sub-ul">
               <li>
                 <a href="">Full Course</a>
               </li>
@@ -49,23 +49,23 @@ const Header = () => {
                   </li>
                 </ul>
               </li>
-            </ul> */}
+            </ul>
           </li>
           <li className="main-list">
             <NavLink className="main-link" to="/javascript  ">
               JavaScript
             </NavLink>
-            {/* <ul className="sub-ul sub-of-js">
+            <ul className="sub-ul sub-of-js">
               <li>
                 <a href="">coming soon🔥</a>
               </li>
-            </ul> */}
+            </ul>
           </li>
         </ul>
       </header>
 
       <header className="show-when-mobile">
-        <h1>c4a.dev</h1>
+        <h1>Maged Magdy</h1>
         <label className="absolute" htmlFor="burger">
           <i className="fas fa-bars" />
         </label>
